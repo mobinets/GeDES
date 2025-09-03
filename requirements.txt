@@ -1,0 +1,19 @@
+# Python environment dependencies configuration
+# For all Python scripts in the GeDES project
+
+
+# Data processing and analysis
+pandas>=1.0.0,<1.1.0
+numpy>=1.21.0
+
+# Scientific computing and signal processing
+scipy>=1.7.0
+
+# Data visualization and plotting
+matplotlib>=3.5.0
+
+# File path handling
+pathlib>=1.0.0
+
+# Regular expression processing
+regex>=2022.3.0
