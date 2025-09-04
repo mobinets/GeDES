@@ -392,7 +392,7 @@ def run_alignment_executables(executables=None):
 def process_alignment_data(
     alignment_file="data/alignment_output.txt",
     unalignment_file="data/unalignment_output.txt",
-    output_filename="img/combined_sent_utilization_plot.pdf",
+    output_filename="img/GPU_utilization_plot.pdf",
     alignment_label="Enable Workload Alignment",
     unalignment_label="Disable Workload Alignment",
 ):
