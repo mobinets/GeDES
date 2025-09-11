@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     int look_ahead_timeslot = 6;
     int packet_pool_size = 8000000; // Default packet pool size
 
-    int flow_time_range = 10000000;
+    int flow_time_range = 1000000;
 
     std::string output_file_name;
 
