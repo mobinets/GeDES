@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Debug 模式标志
-set(CMAKE_CUDA_FLAGS_DEBUG "-G -g -std=c++17")
+# set(CMAKE_CUDA_FLAGS_DEBUG "-G -g -std=c++17")
 
 # Release 模式标志
 set(CMAKE_CUDA_FLAGS_RELEASE "-O3 -lineinfo -std=c++17")
