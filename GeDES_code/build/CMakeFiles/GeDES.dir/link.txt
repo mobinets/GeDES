@@ -1,1 +1,0 @@
-/usr/bin/g++-12 -O3 -DNDEBUG -rdynamic CMakeFiles/GeDES.dir/main.cc.o -o GeDES 

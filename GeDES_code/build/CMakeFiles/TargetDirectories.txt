@@ -1,3 +1,0 @@
-/home/mobinets/GeDES_artifact/GeDES_code/build/CMakeFiles/GeDES.dir
-/home/mobinets/GeDES_artifact/GeDES_code/build/CMakeFiles/edit_cache.dir
-/home/mobinets/GeDES_artifact/GeDES_code/build/CMakeFiles/rebuild_cache.dir
