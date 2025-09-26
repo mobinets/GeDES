@@ -57,7 +57,6 @@ $ ./GeDES --ft_k=xx \
 ```
 
 
-
 ## The orgnization of the code
 The list of the files in the project:
 ```
@@ -149,3 +148,12 @@ The relationship between the header files:
 │       └── arp_protocol.h  \\ARP protocol implementation
 ```
 The impl files contain the implementation of the classes in the header files.
+
+
+### Baseline Setup
+Our artifact repository contains only the source code, scripts, and documentation of GeDES. For the setup of baseline simulators, please refer to their respective repositories:
+
+* Unison: \url{https://github.com/NASA-NJU/UNISON-for-ns-3}
+* DONS: \url{https://github.com/dons2023/Data-Oriented-Network-Simulator}.
+
+For baseline simulators, we strictly follow the setup instructions provided in their respective repositories. Both simulators support the FatTree topology and Poisson traffic model. In our experiments, we vary the FatTree degree $K$ from 4 to 48 and adjust the traffic load factor $\sigma$ from 0.1 to 0.9. The configuration files are located at `DONS/Assets/Simulator/Authoring/BuildTopoAuthoring.cs` for DONS and `src/mtp/examples/fat-tree-mtp.cc` for Unison.

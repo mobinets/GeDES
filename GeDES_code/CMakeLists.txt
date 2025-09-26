@@ -15,7 +15,7 @@ set(CMAKE_CUDA_FLAGS_RELEASE "-O3 -lineinfo -std=c++17")
 set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} --expt-extended-lambda --expt-relaxed-constexpr -std=c++17")
 
 include_directories(
-    "/path/to/source/document/GeDES_code/code/c++/include/"
+    "/path/to/code/dir/GeDES_code/code/c++/include/"
     "/usr/local/cuda/include"
     "/usr/include"
     "/usr/local/include"
@@ -24,7 +24,7 @@ include_directories(
 find_package(CUDA REQUIRED)
 find_library(CUDA_LIB cuda PATHS /usr/local/cuda/lib64 /usr/lib/x86_64-linux-gnu)
 
-set(SOURCE_DIR /path/to/source/document/GeDES_code/code/c++/src/)
+set(SOURCE_DIR /path/to/code/dir/GeDES_code/code/c++/src/)
 file(GLOB_RECURSE SOURCES ${SOURCE_DIR}/*.cc)
 file(GLOB_RECURSE CUDA_SOURCES ${SOURCE_DIR}/*.cu)
 
