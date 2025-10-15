@@ -199,8 +199,7 @@ def smooth_utilization_data(utilization_data, sigma=1.0, step=5):
     #     # Apply scaling adjustment using reusable function
     #     smoothed_rates = apply_scaling_adjustment(smoothed_rates, target_idx, target_range)
 
-    # Reverse the smoothed rates array
-    return smoothed_rates[::-1]
+    return smoothed_rates
 
 
 def plot_utilization_data(utilization_data, title, output_file):
